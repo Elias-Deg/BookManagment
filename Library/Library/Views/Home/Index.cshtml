@@ -1,0 +1,50 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book managment</title>
+    <style>
+        h1{
+            color:antiquewhite;
+        }
+
+        h3 {
+            color:darkorange;
+        }
+    </style>
+</head>
+<body>
+    <header >
+        <h1>
+            &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+            Welcome to Book Managment</h1>
+        <br><br>
+        <h3>Here You can Add,Edit,Delete And View the following items of the library.</h3>
+        <h5>To access the items you can use the links below or the tabs above.</h5>
+    </header>
+    <br><br>
+    <main>
+        <section>
+            <ul style="padding-top:5px;">
+                <li  ><a style="text-decoration:none; color:yellowgreen" href="/Book/GetAll">Books</a></li>
+                <br>
+                <li><a style="text-decoration:none; color:yellowgreen" href="/Genre/GetAll">Genres</a></li>
+                <br>
+                <li><a style="text-decoration:none; color:yellowgreen" href="/Author/GetAll">Authors</a></li>
+                <br>
+               
+                <li><a style="text-decoration:none; color:yellowgreen" href="/Publisher/GetAll">Publishers</a></li>
+            </ul>
+         
+        </section>
+    </main>
+
+
+</body>
+</html>

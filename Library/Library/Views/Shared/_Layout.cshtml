@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Managment</title>
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <style>
+        a{
+            font-family:Verdana, Geneva, Tahoma, sans-serif
+        }
+        h3{
+            color:burlywood;
+        }    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+</head>
+<body style="background-color:black;">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/Home/Index"> Book Managment</a>
+        <ul class="navbar-nav mr-auto" style="padding-left:30px;">
+            <li class="nav-item" >
+                <a href="/Genre/GetAll" class="nav-link">Genre</a>
+            </li>
+            <li class="nav-item">
+                <a href="/Author/GetAll" class="nav-link">Author</a>
+            </li>
+            <li class="nav-item active">
+                <a href="/Publisher/GetAll" class="nav-link">Publisher</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="/Book/GetAll" class="nav-link">Books</a>
+            </li>
+        </ul>
+
+    </nav>
+    <div class="container">
+        @RenderBody()
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer >
+        <p style="color:white;">&copy; 2023  BookManagment. Elias Degafe (ID = KE8170 Section = DRB2101)</p>
+    </footer>
+</body>
+
+
+</html>

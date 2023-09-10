@@ -1,0 +1,4 @@
+
+Project Detail = this file contains a book managment system that can be integrated in a bigger library managment system where a staff member can use it to add,edit,delete and view the existing books and attributes of the books including authors,publishers,genre and so on.
+
+How it is made = it was made using C# language in ASP.net Entity framework , The softwares used were Visual Studio and Microsoft Sql Server Managment Studio.
